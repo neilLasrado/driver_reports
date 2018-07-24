@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include driver_reports *.css
+recursive-include driver_reports *.csv
+recursive-include driver_reports *.html
+recursive-include driver_reports *.ico
+recursive-include driver_reports *.js
+recursive-include driver_reports *.json
+recursive-include driver_reports *.md
+recursive-include driver_reports *.png
+recursive-include driver_reports *.py
+recursive-include driver_reports *.svg
+recursive-include driver_reports *.txt
+recursive-exclude driver_reports *.pyc
