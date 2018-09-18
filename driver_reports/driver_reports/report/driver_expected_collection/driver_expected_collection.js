@@ -15,8 +15,7 @@ frappe.query_reports["Driver Expected Collection"] = {
 			"fieldname": "Driver",
 			"label": __("Driver"),
 			"fieldtype": "Link",
-			"options": "Driver",
-			"reqd": 1
+			"options": "Driver"
 		}
 	]
 }
